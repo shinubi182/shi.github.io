@@ -15,6 +15,8 @@ tags:
 思路：
     通过 *git* 的分支实现。*hexo* 生成的静态博客文件默认放在 master 分支上，可以新创建一个 *hexo* 分支，把 *hexo* 的源文件都放在 *hexo* 分支上，换新电脑时，直接 `git clone hexo` 分支即可。
 
+<!--more-->
+
 1.分析
        新建一个 *hexo* 分支，把 *hexo* 的源文件都放到这个分支上。但是源文件有70多M，并不需要把所有文件都放在分支上。node_modules目录可以用 `npm install` 命令生成，public目录可以使用 `hexo g` 命令生成，.deploy_git目录是`hexo d`命令生成，所以可以把这三个目录放在 .gitignore 里忽略提交。
 

@@ -16,6 +16,8 @@ tags:
 依次执行`git add` .、`git commit -m "..."`、`git push origin hexo`提交网站相关的文件
 执行hexo g -d生成网站并部署到GitHub上。
 
+<!--more-->
+
 这样一来，在GitHub上的[http://shinubi182.github.io](https://link.zhihu.com/?target=http%3A//CrazyMilk.github.io)仓库就有两个分支，一个hexo分支用来存放网站的原始文件，一个main分支用来存  放生成的静态网页。
 
 ​       今后无论什么时候想要在其他电脑上面用hexo写博客，就直接把创建的分支克隆下来，npm install安装依赖之后就可以用了。
