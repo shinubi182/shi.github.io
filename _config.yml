@@ -4,12 +4,12 @@
 
 # Site
 title: Hexo
-subtitle: ''
-description: ''
+subtitle: 
+description: 
 keywords:
 author: John Doe
 language: zh-cn
-timezone: ''
+timezone: 
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -54,7 +54,7 @@ prismjs:
   enable: false
   preprocess: true
   line_number: true
-  tab_replace: ''
+  tab_replace: 
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -105,22 +105,4 @@ deploy:
   type: git
   repository: git@github.com:shinubi182/shinubi182.github.io.git
   branch: main
-jsonContent:
-    meta: false
-    pages: false
-    posts:
-      title: true
-      date: true
-      path: true
-      text: false
-      raw: false
-      content: false
-      slug: false
-      updated: false
-      comments: false
-      link: false
-      permalink: false
-      excerpt: false
-      categories: false
-      tags: true
 
