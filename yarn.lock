@@ -1248,13 +1248,14 @@ hexo-generator-index@^2.0.0:
     hexo-pagination "1.0.0"
     timsort "^0.3.0"
 
-hexo-generator-json-content@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/hexo-generator-json-content/-/hexo-generator-json-content-2.2.0.tgz#ed791d9e40a155894ae0678ea93ada0bab6a7ed5"
-  integrity sha512-yqJS18jZUS6zN3FBtwssm3EpAqx66NFghba5meBfcwWeMAcfyDlukirVInKrcW0xpx8KpT6NZXzXjPuZ9VL1rg==
+hexo-generator-json-content@^4.2.3:
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/hexo-generator-json-content/-/hexo-generator-json-content-4.2.3.tgz#1cabaf53319c4ca5be41a34a501f280e76cae60b"
+  integrity sha512-XGqCaTUr6+X8Ty/YvRi+0eh0DJgHcp+lgBhn+Sgyh6ev40P0cwamwJyaZroTdHt8GPoBwbSGVu0H/CdzEf0lFA==
   dependencies:
     hexo-util latest
     keyword-extractor latest
+    moment latest
 
 hexo-generator-tag@^1.0.0:
   version "1.0.0"
@@ -1992,7 +1993,7 @@ moment-timezone@^0.5.34:
   dependencies:
     moment ">= 2.9.0"
 
-"moment@>= 2.9.0", moment@^2.10.6, moment@^2.18.0, moment@^2.29.1:
+"moment@>= 2.9.0", moment@^2.10.6, moment@^2.18.0, moment@^2.29.1, moment@latest:
   version "2.29.4"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
   integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
